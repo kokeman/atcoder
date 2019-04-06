@@ -1,8 +1,5 @@
-from sys import stdin
+a = int(input())
+b, c = map(int, input().split())
+s = input()
 
-a = stdin.readline().rstrip()
-b, c = stdin.readline().rstrip().split(" ")
-s = stdin.readline().rstrip()
-
-print(int(a) + int(b) + int(c), end=" ")
-print(s)
+print("{} {}".format(a + b + c, s))
