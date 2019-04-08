@@ -1,1 +1,1 @@
-# AtcoderをPythonで解いていく予定
+AtcoderをPythonで解いていく予定
